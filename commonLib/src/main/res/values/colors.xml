@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lib_colorPrimary">#5094F3</color>
+    <color name="lib_colorPrimaryDark">#5094F3</color>
+    <color name="lib_colorAccent">#5094F3</color>
+    <color name="lib_colorPrimary_other">#2B4CAB</color>
+
+    <color name="white_color">#FFFFFF</color>
+    <color name="font_3_color">#333333</color>
+    <color name="font_4_color">#444444</color>
+    <color name="font_5_color">#555555</color>
+    <color name="font_6_color">#666666</color>
+    <color name="font_8_color">#888888</color>
+    <color name="font_9_color">#999999</color>
+    <color name="font_a_color">#aaaaaa</color>
+
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="half_transparent">#80000000</color>
+    <color name="red_color">#E55558</color>
+
+
+</resources>

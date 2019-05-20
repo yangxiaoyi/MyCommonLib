@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/bgLayout"
+        android:layout_width="@dimen/margin_160"
+        android:layout_height="@dimen/margin_160"
+        android:layout_centerInParent="true"
+        android:background="@drawable/lib_loading_bg">
+
+        <View
+            android:id="@+id/loading_dialog"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/lib_dialog_loading_icon" />
+
+        <TextView
+            android:id="@+id/loading_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loading_dialog"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/margin_10"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/white_color"
+            android:textSize="@dimen/content_header" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyCommonLib</string>
+    <string name="input_hint_base_str">请输入</string>
+</resources>
